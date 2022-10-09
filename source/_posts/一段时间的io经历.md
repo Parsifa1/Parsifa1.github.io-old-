@@ -1,0 +1,70 @@
+---
+title: 一段时间的io经历
+date: 2022-10-09 11:04:04
+layout:
+tags: 编程
+index_img: https://ali2.a.yximgs.com/udata/music/music_582ae5444bb14d0faa7472ca456742ea0.jpg
+---
+
+来到大学也已经几个月了，接触到了算法，是个新鲜玩意qwq
+
+<!--more-->
+
+有很好的学长，氛围也很棒!awa
+
+![](https://pic1.imgdb.cn/item/63423b6516f2c2beb104787d.jpg)
+
+记录一下自己的洛谷做题，顺便展示一下最近学的欧拉筛！
+
+```
+c++
+#include<bits/stdc++.h>
+using namespace std;
+
+int t,n,prime[100001]={0};
+bool all[100001]={0};
+
+int main() {
+    cin>>n;
+
+    for(int i=2;i<n;i++) {
+        if(all[i]==0) {
+            prime[t++]=i;
+        }
+
+        for(int j=0;j<t&&i*prime[j]<=n;j++) {
+            all[i*prime[j]]=1;
+            if(i%prime[j]==0)
+                break;
+        }
+    }
+    for(int i=0;i<t;i++) {
+        cout<<prime[i]<<" ";
+    }
+}
+
+
+
+
+```
+
+欧拉筛的基本原理就是：
+
+每个素数的倍数都是合数，而每个合数可以表示为一个最小的素数和另一个系数的乘积。
+
+如12==3\*4
+    12==2*6
+
+    12==3*4 
+
+    12==6*2
+
+因此我们只用筛2\*6筛，大幅减少时间，能够达到o(n)水平。
+
+如图：
+
+![](https://pic1.imgdb.cn/item/63423dc416f2c2beb108ef27.jpg)
+
+由上至下为i的递增，由左至右为使用prime进行\*运算；
+
+红色是相对埃氏筛优化掉的部分。
