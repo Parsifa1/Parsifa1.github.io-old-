@@ -7,7 +7,7 @@ categories: 教程
 index_img:  https://pic.imgdb.cn/item/63d79f26face21e9ef1a5503.jpg
 ---
 
-![效果展示](https://pic.imgdb.cn/item/63d79e36face21e9ef18addb.jpg)
+![效果展示](https://pic.imgdb.cn/item/63d7a080face21e9ef1cd5a8.jpg)
 
 众多周知，VSCode是一个非常好用的编辑器，支持很多的语言，而且比较轻量化。特别是对于C/C++，无需拘泥于工程这个概念，对于只写小型程序的大学生来说比较方便。但是对于C++和Python的配置是非常麻烦的，这里记录一下我自己的配置过程，希望能够帮助到大家。
 <!--more-->
