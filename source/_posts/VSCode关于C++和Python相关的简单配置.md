@@ -146,18 +146,9 @@ MinGW，然后配置环境变量。
 
 ### 配置Python插件
 
-安装完Python插件之后，我们需要配置Python插件，这里我们需要配置一下
-`settings.json`文件，这个文件是用来配置Python插件的，这里我们需要配置
-一下Python的路径，这里我是安装在`C:\Python37`下面的，所以我的配置如下：
+安装完Python插件之后，不需要配置python，系统会自动寻找到你的python环境（只要你安装python时加入了环境变量）。
 
-```json
-{
-    "python.pythonPath": "C:/Python37/python.exe"
-}
-```
-
-同样的，使用的.coderunner插件配置之后，就可以直接编译执行了。
-无需单独配置。
+同样的，使用的.coderunner插件配置之后，就可以直接编译执行了。无需单独配置。
 
 ## 参考
 
