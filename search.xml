@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>一段时间的io经历</title>
+      <link href="/2022/10/09/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E7%9A%84%E7%AE%97%E6%B3%95%E7%BB%8F%E5%8E%86/"/>
+      <url>/2022/10/09/%E4%B8%80%E6%AE%B5%E6%97%B6%E9%97%B4%E7%9A%84%E7%AE%97%E6%B3%95%E7%BB%8F%E5%8E%86/</url>
+      
+        <content type="html"><![CDATA[<p>来到大学也已经几个月了，接触到了算法，是个新鲜玩意qwq</p><span id="more"></span><p>有很好的学长，氛围也很棒!awa</p><p><img src="https://pic1.imgdb.cn/item/63423b6516f2c2beb104787d.jpg"></p><p>记录一下自己的洛谷做题，顺便展示一下最近学的欧拉筛！</p><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs cpp">c++<br><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">int</span> t,n,prime[<span class="hljs-number">100001</span>]={<span class="hljs-number">0</span>};<br><span class="hljs-type">bool</span> all[<span class="hljs-number">100001</span>]={<span class="hljs-number">0</span>};<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>    cin&gt;&gt;n;<br><br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">2</span>;i&lt;n;i++) {<br>        <span class="hljs-keyword">if</span>(all[i]==<span class="hljs-number">0</span>) {<br>            prime[t++]=i;<br>        }<br><br>        <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> j=<span class="hljs-number">0</span>;j&lt;t&amp;&amp;i*prime[j]&lt;=n;j++) {<br>            all[i*prime[j]]=<span class="hljs-number">1</span>;<br>            <span class="hljs-keyword">if</span>(i%prime[j]==<span class="hljs-number">0</span>)<br>                <span class="hljs-keyword">break</span>;<br>        }<br>    }<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>;i&lt;t;i++) {<br>        cout&lt;&lt;prime[i]&lt;&lt;<span class="hljs-string">" "</span>;<br>    }<br>}<br><br><br><br><br></code></pre></td></tr></tbody></table></figure><p>欧拉筛的基本原理就是：</p><p>每个素数的倍数都是合数，而每个合数可以表示为一个最小的素数和另一个系数的乘积。</p><p>如12==3*4<br>&nbsp;&nbsp;&nbsp;&nbsp;12==2*6<br>    12==3*4&nbsp;<br>    12==6*2</p><p>因此我们只用筛2*6筛，大幅减少时间，能够达到o(n)水平。</p><p>如图：</p><p><img src="https://pic1.imgdb.cn/item/63423dc416f2c2beb108ef27.jpg"></p><p>由上至下为i的递增，由左至右为使用prime进行*运算；</p><p>红色是相对埃氏筛优化掉的部分。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>录取通知书到啦！哈工程我来了awa</title>
+      <link href="/2022/08/04/%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%88%B0%E5%95%A6%EF%BC%81%E5%93%88%E5%B7%A5%E7%A8%8B%E6%88%91%E6%9D%A5%E4%BA%86awa/"/>
+      <url>/2022/08/04/%E5%BD%95%E5%8F%96%E9%80%9A%E7%9F%A5%E4%B9%A6%E5%88%B0%E5%95%A6%EF%BC%81%E5%93%88%E5%B7%A5%E7%A8%8B%E6%88%91%E6%9D%A5%E4%BA%86awa/</url>
+      
+        <content type="html"><![CDATA[<h1 id="通知书到啦awa"><a href="#通知书到啦awa" class="headerlink" title="通知书到啦awa"></a>通知书到啦awa</h1><p><img src="https://pic.imgdb.cn/item/62ee831816f2c2beb19fb726.png"></p><hr><h3 id="首先是通知书的外壳qwq："><a href="#首先是通知书的外壳qwq：" class="headerlink" title="首先是通知书的外壳qwq："></a>首先是通知书的外壳qwq：</h3><p><img src="https://pic.imgdb.cn/item/62ee83eb16f2c2beb1a35e6a.jpg"></p><p>通红通红的感觉海星（！</p><hr><h3 id="打开却是蓝色的袋子，揭示了船院本色ᓚᘏᗢ"><a href="#打开却是蓝色的袋子，揭示了船院本色ᓚᘏᗢ" class="headerlink" title="打开却是蓝色的袋子，揭示了船院本色ᓚᘏᗢ"></a>打开却是蓝色的袋子，揭示了船院本色ᓚᘏᗢ</h3><p><img src="https://pic.imgdb.cn/item/62ee83eb16f2c2beb1a35e6a.jpg"></p><h3 id="通知书上还有一个校徽，磁力的能取下来！-•̀-ω-•́-✧"><a href="#通知书上还有一个校徽，磁力的能取下来！-•̀-ω-•́-✧" class="headerlink" title="通知书上还有一个校徽，磁力的能取下来！( •̀ ω •́ )✧"></a>通知书上还有一个校徽，磁力的能取下来！( •̀ ω •́ )✧</h3><p>袋子里是一些伴手礼和一本手册：</p><p><img src="https://pic.imgdb.cn/item/62ee83eb16f2c2beb1a35eb0.jpg"></p><p>书签和几个口罩（口罩四季只给3个真是…</p><p>没多久就要去学校了，有点害怕学校的宿舍，</p><blockquote><p>不让带电脑更是寄中寄，真不知道学校领导是怎么想的.</p></blockquote><p>通知书虽然不算丰厚，但是我已经很满意了，听说武大就一张纸，一本指南</p><h4 id="我只能说："><a href="#我只能说：" class="headerlink" title="我只能说："></a>我只能说：</h4><h1 id="赢！"><a href="#赢！" class="headerlink" title="赢！"></a>赢！</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>用bat文件实现一键hexo写作，上传部署</title>
+      <link href="/2022/08/02/%E7%94%A8bat%E6%96%87%E4%BB%B6%E5%AE%9E%E7%8E%B0%E4%B8%80%E9%94%AEhexo%E5%86%99%E4%BD%9C%EF%BC%8C%E4%B8%8A%E4%BC%A0%E9%83%A8%E7%BD%B2/"/>
+      <url>/2022/08/02/%E7%94%A8bat%E6%96%87%E4%BB%B6%E5%AE%9E%E7%8E%B0%E4%B8%80%E9%94%AEhexo%E5%86%99%E4%BD%9C%EF%BC%8C%E4%B8%8A%E4%BC%A0%E9%83%A8%E7%BD%B2/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://pic.imgdb.cn/item/62ee845716f2c2beb1a54b31.png"></p><h2 id="你首先需要已经完成基本hexo的部署！！"><a href="#你首先需要已经完成基本hexo的部署！！" class="headerlink" title="你首先需要已经完成基本hexo的部署！！"></a>你首先需要已经完成基本hexo的部署！！</h2><span id="more"></span><hr><ol><li><p>确保和github的连接方式为ssh，且设置passphrase为空  （<strong>很重要！</strong></p></li><li><p>确保没有其他小问题;</p></li><li><p>祈祷自己不会遇到bug（不是</p></li></ol><hr><p>1.一键完成文章的命名：</p><blockquote><p>@echo off<br>set /p name=input pages name:<br>echo please wait<br>cd C:\a\b\blog<br>call hexo new null %name%<br>start C:\a\b\blog\source_posts%name%.md<br>pause</p></blockquote><p><strong>其中的C:\a\b\blog需填入你自己博客的根目录，其他照旧</strong></p><p><img src="https://s2.loli.net/2022/08/02/zsRQuxrcDhTiwSp.png" alt="例子"></p><p>输入需要的文章标题即可，会自动打开文章md文件，写作即可！</p><hr><p>2.文章一键部署发布</p><blockquote><p>cd /d  C:\a\b\c\blog<br>title HexoGoGoGo<br>cd<br>call hexo clean<br>call hexo g<br>call hexo d<br>echo<br>pause</p></blockquote><p><strong>具体填入要求同上</strong></p><p>效果如下：</p><p><img src="https://s2.loli.net/2022/08/02/ZIObvKweG8XyJAR.png" alt="例子"></p><h1 id="有这两个批处理文件，hexo的使用就相对没那么繁杂啦！"><a href="#有这两个批处理文件，hexo的使用就相对没那么繁杂啦！" class="headerlink" title="有这两个批处理文件，hexo的使用就相对没那么繁杂啦！"></a>有这两个批处理文件，hexo的使用就相对没那么繁杂啦！</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>艰难的建站经历暨心情</title>
+      <link href="/2022/08/02/%E8%89%B0%E9%9A%BE%E7%9A%84%E5%BB%BA%E7%AB%99%E7%BB%8F%E5%8E%86/"/>
+      <url>/2022/08/02/%E8%89%B0%E9%9A%BE%E7%9A%84%E5%BB%BA%E7%AB%99%E7%BB%8F%E5%8E%86/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://pic.imgdb.cn/item/62ee859d16f2c2beb1aab493.png"></p><p>由于某些缘故，一直想建个博客。原来是用的blogger+域名+cf托管，虽然省心，但是着实太丑（qwq</p><span id="more"></span><p> 现在改成了用gitpage托管的方案，搭配hexo效果确实不错，可是</p><h3 id="为什么小问题这么多啊喂！！！"><a href="#为什么小问题这么多啊喂！！！" class="headerlink" title="为什么小问题这么多啊喂！！！"></a>为什么小问题这么多啊喂！！！</h3><p>我深刻体会到github和cloudflre的水火不容。小小的https协议，我刷新3次，能给我三种结果：</p><ul><li><p>重定向过多</p></li><li><p>github特供404</p></li><li><p>正常页面</p></li></ul><p>最麻的是你根本找不到问题所在，所以我只好把所有dns解析都删掉，再重设。现在终于又能用了。</p><h1 id="希望能多坚持一段时间！！"><a href="#希望能多坚持一段时间！！" class="headerlink" title="希望能多坚持一段时间！！"></a>希望能多坚持一段时间！！</h1><p>好久没有打过apex了，希望能多吃几次鸡</p><p>顺便记录下第一次吃鸡！</p><p><img src="https://s2.loli.net/2022/08/02/jaru5xQKW7MRUXH.png"></p><h6 id="虽然完全是被带飞的就是了（小声"><a href="#虽然完全是被带飞的就是了（小声" class="headerlink" title="虽然完全是被带飞的就是了（小声"></a>虽然完全是被带飞的就是了（小声</h6>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
