@@ -1,4 +1,4 @@
-cd /d  C:\Users\Parsifal\Desktop\blog
+cd /d  D:\Aldric\desktop\blog
 title HexoGoGoGo
 cd 
 call git config --global user.email "2746763180@qq.com"
