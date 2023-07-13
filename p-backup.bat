@@ -1,5 +1,5 @@
 @echo off
-cd C:\Users\Parsifal\Desktop\blog\
+cd D:\Aldric\desktop\blog
 git add .
 git commit -m "hexobackup"
 git push
