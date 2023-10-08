@@ -1,7 +1,7 @@
 @echo off
 set /p name=input pages name:
 echo please wait
-cd C:\Users\Parsifal\Desktop\blog
+cd E:\Aldric\desktop\blog
 call hexo new null %name%
-start C:\Users\Parsifal\Desktop\blog\source\_posts\%name%.md
+start E:\Aldric\desktop\blog\source\_posts\%name%.md
 pause
