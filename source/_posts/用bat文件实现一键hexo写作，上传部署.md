@@ -4,10 +4,10 @@ date: 2022-08-02 16:32:46
 layout: 教程
 tags: 网站
 categories: 教程
-index_img: https://pic.imgdb.cn/item/62ee845716f2c2beb1a54b31.png
+index_img: https://i2.woh.to/2023/10/09/0578c1ba90cf0faf09fbb7f9aecb63e1aedc46616f9a0223.webp
 ---
 
-![](https://pic.imgdb.cn/item/62ee845716f2c2beb1a54b31.png)
+![](https://i2.woh.to/2023/10/09/0578c1ba90cf0faf09fbb7f9aecb63e1aedc46616f9a0223.webp)
 
 ## 你首先需要已经完成基本hexo的部署！！
 

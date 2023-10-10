@@ -4,7 +4,7 @@ date: 2023-01-30 18:13:22
 layout: 教程
 tags: 编程
 categories: 教程
-index_img:  https://pic.imgdb.cn/item/63d79f26face21e9ef1a5503.jpg
+index_img:  https://i2.woh.to/2023/10/09/63d79f26face21e9ef1a55032937dc17bf6e83ba.webp
 ---
 
 ![效果展示](https://pic.imgdb.cn/item/63d7a080face21e9ef1cd5a8.jpg)

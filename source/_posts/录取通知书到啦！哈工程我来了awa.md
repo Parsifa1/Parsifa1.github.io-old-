@@ -4,12 +4,12 @@ date: 2022-08-04 22:51:04
 layout:
 tags: 生活
 categories: 记录
-index_img: https://pic.imgdb.cn/item/62ee831816f2c2beb19fb726.png
+index_img: https://i2.woh.to/2023/10/09/fedf5539e37e708104d7779c246abf504d656e88b8d62648.webp
 ---
 
 # 通知书到啦awa
 
-![](https://pic.imgdb.cn/item/62ee831816f2c2beb19fb726.png)
+![](https://i2.woh.to/2023/10/09/fedf5539e37e708104d7779c246abf504d656e88b8d62648.webp)
 
 ---
 

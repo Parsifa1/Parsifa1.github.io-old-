@@ -461,7 +461,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://pic.rmb.bdstatic.com/bjh/9dc4b2a7de81fc6581db4d629045dfa2.jpeg
+  banner_img: https://i2.woh.to/2023/10/09/9dc4b2a7de81fc6581db4d629045dfa2f9bb6415d99a36bb.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -533,7 +533,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://pic.imgdb.cn/item/62ebfa0c8c61dc3b8e3ba02f.jpg
+  banner_img: https://i1.woh.to/2023/10/09/20c1099d3371c3196128b0776905f7f1beea112dbf1cb19e.webp
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -729,7 +729,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: utterances
+    type: giscus
 
 
 #---------------------------
@@ -870,16 +870,16 @@ cusdis:
 # Based on GitHub Discussions, similar to Utterances
 # See: https://giscus.app/
 giscus:
-  repo:
-  repo-id:
-  category:
-  category-id:
+  repo: Parsifa1/Parsifa1.github.io
+  repo-id: R_kgDOHv-sOQ
+  category: Announcements
+  category-id: DIC_kwDOHv-sOc4CZ_6n
   theme-light: light
-  theme-dark: dark
+  theme-dark: dark_dimmed
   mapping: pathname
   reactions-enabled: 1
   emit-metadata: 0
-  input-position: top
+  input-position: bottom
   lang: zh-CN
 
 #---------------------------
@@ -887,7 +887,7 @@ giscus:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://pic.imgdb.cn/item/62ebfa0c8c61dc3b8e3ba02f.jpg
+  banner_img: https://i1.woh.to/2023/10/09/20c1099d3371c3196128b0776905f7f1beea112dbf1cb19e.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -898,7 +898,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://pic.imgdb.cn/item/62ebfa0c8c61dc3b8e3ba02f.jpg
+  banner_img: https://i1.woh.to/2023/10/09/20c1099d3371c3196128b0776905f7f1beea112dbf1cb19e.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -927,7 +927,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://pic.imgdb.cn/item/62ebfa0c8c61dc3b8e3ba02f.jpg
+  banner_img: https://i1.woh.to/2023/10/09/20c1099d3371c3196128b0776905f7f1beea112dbf1cb19e.webp
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -944,7 +944,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://pic.imgdb.cn/item/62ebfa0c8c61dc3b8e3ba02f.jpg
+  banner_img: https://i1.woh.to/2023/10/09/20c1099d3371c3196128b0776905f7f1beea112dbf1cb19e.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: https://pic.imgdb.cn/item/62f11fcb16f2c2beb13e4066.jpg
@@ -977,7 +977,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://pic.imgdb.cn/item/62ebfa0c8c61dc3b8e3ba02f.jpg
+  banner_img: https://i1.woh.to/2023/10/09/20c1099d3371c3196128b0776905f7f1beea112dbf1cb19e.webp
   banner_img_height: 85
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
@@ -991,7 +991,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://pic.imgdb.cn/item/62ebfa0c8c61dc3b8e3ba02f.jpg
+  banner_img: https://i1.woh.to/2023/10/09/20c1099d3371c3196128b0776905f7f1beea112dbf1cb19e.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
@@ -1008,7 +1008,7 @@ links:
       title: "jht3的个人站",
       intro: "海阔天空jht3",
       link: " https://jht3.top/",
-      avatar: " https://static.jht3.hedion.space/wp-content/uploads/2021/02/70e16d9eb5a85bcc.jpg"
+      avatar: "https://jht3.top/wp-content/uploads/2022/09/70e16d9eb5a85bcc.jpg"
     }
 
  # 当成员头像加载失败时，替换为指定图片
@@ -1028,7 +1028,7 @@ links:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: utterances
+    type: giscus
 
 
 #---------------------------
