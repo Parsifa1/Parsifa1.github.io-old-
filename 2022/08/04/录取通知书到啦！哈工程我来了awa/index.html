@@ -447,7 +447,7 @@
     <div id="giscus" class="giscus"></div>
     <script type="text/javascript">
       Fluid.utils.loadComments('#giscus', function() {
-        var options = {"repo":"Parsifa1/Parsifa1.github.io","repo-id":"R_kgDOHv-sOQ","category":"Announcements","category-id":"Announcements","theme-light":"light","theme-dark":"dark","mapping":"pathname","reactions-enabled":1,"emit-metadata":0,"input-position":"bottom","lang":"zh-CN"};
+        var options = {"repo":"Parsifa1/Parsifa1.github.io","repo-id":"R_kgDOHv-sOQ","category":"Announcements","category-id":"Announcements","theme-light":"light","theme-dark":"dark_dimmed","mapping":"pathname","reactions-enabled":1,"emit-metadata":0,"input-position":"bottom","lang":"zh-CN"};
         var attributes = {};
         for (let option in options) {
           if (!option.startsWith('theme-')) {
@@ -456,7 +456,7 @@
           }
         }
         var light = 'light';
-        var dark = 'dark';
+        var dark = 'dark_dimmed';
         window.GiscusThemeLight = light;
         window.GiscusThemeDark = dark;
         attributes['data-theme'] = document.documentElement.getAttribute('data-user-color-scheme') === 'dark' ? dark : light;
