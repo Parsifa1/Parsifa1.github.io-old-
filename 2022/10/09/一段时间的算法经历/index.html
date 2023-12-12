@@ -23,13 +23,13 @@
 <meta property="og:site_name" content="云汐のchannel">
 <meta property="og:description" content="来到大学也已经几个月了，接触到了算法，是个新鲜玩意qwq">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://i3.woh.to/2023/10/09/64dd9644661c6c8e548d2614dd9253290c06de2b.webp">
+<meta property="og:image" content="https://i1.woh.to/2023/12/12/08412cf609b491031dcb6ed261b1d7bb6340108128f0f261.webp">
 <meta property="article:published_time" content="2022-10-09T03:04:04.000Z">
-<meta property="article:modified_time" content="2023-10-09T14:46:27.306Z">
+<meta property="article:modified_time" content="2023-12-12T18:19:55.199Z">
 <meta property="article:author" content="Aldric li">
 <meta property="article:tag" content="编程">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://i3.woh.to/2023/10/09/64dd9644661c6c8e548d2614dd9253290c06de2b.webp">
+<meta name="twitter:image" content="https://i1.woh.to/2023/12/12/08412cf609b491031dcb6ed261b1d7bb6340108128f0f261.webp">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -235,7 +235,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('https://i1.woh.to/2023/10/09/20c1099d3371c3196128b0776905f7f1beea112dbf1cb19e.webp') no-repeat center center; background-size: cover;">
+     style="background: url('https://i2.woh.to/2023/12/12/banner_innerd517c669fb87c3aa.webp') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -322,7 +322,7 @@
 <span id="more"></span>
 
 <p>有很好的学长，氛围也很棒!awa</p>
-<p><img src="https://pic1.imgdb.cn/item/63423b6516f2c2beb104787d.jpg" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://i1.woh.to/2023/12/12/08412cf609b491031dcb6ed261b1d7bb6340108128f0f261.webp" srcset="/img/loading.gif" lazyload></p>
 <p>记录一下自己的洛谷做题，顺便展示一下最近学的欧拉筛！</p>
 <figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs cpp">c++<br><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-type">int</span> t,n,prime[<span class="hljs-number">100001</span>]={<span class="hljs-number">0</span>};<br><span class="hljs-type">bool</span> all[<span class="hljs-number">100001</span>]={<span class="hljs-number">0</span>};<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{<br>    cin&gt;&gt;n;<br><br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">2</span>;i&lt;n;i++) {<br>        <span class="hljs-keyword">if</span>(all[i]==<span class="hljs-number">0</span>) {<br>            prime[t++]=i;<br>        }<br><br>        <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> j=<span class="hljs-number">0</span>;j&lt;t&amp;&amp;i*prime[j]&lt;=n;j++) {<br>            all[i*prime[j]]=<span class="hljs-number">1</span>;<br>            <span class="hljs-keyword">if</span>(i%prime[j]==<span class="hljs-number">0</span>)<br>                <span class="hljs-keyword">break</span>;<br>        }<br>    }<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>;i&lt;t;i++) {<br>        cout&lt;&lt;prime[i]&lt;&lt;<span class="hljs-string">" "</span>;<br>    }<br>}<br><br><br><br><br></code></pre></td></tr></tbody></table></figure>
 
